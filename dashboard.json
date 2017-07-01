@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "e33b4500-5a08-11e7-9569-cbd201df868c",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Squid",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"size_x\":6,\"size_y\":3,\"panelIndex\":1,\"type\":\"visualization\",\"id\":\"77532ca0-5a07-11e7-9569-cbd201df868c\",\"col\":1,\"row\":1},{\"size_x\":6,\"size_y\":3,\"panelIndex\":2,\"type\":\"visualization\",\"id\":\"82f5a610-5a06-11e7-9569-cbd201df868c\",\"col\":7,\"row\":1},{\"size_x\":4,\"size_y\":3,\"panelIndex\":3,\"type\":\"visualization\",\"id\":\"e75e73c0-5a06-11e7-9569-cbd201df868c\",\"col\":1,\"row\":4},{\"size_x\":4,\"size_y\":3,\"panelIndex\":4,\"type\":\"visualization\",\"id\":\"ffd835c0-5a07-11e7-9569-cbd201df868c\",\"col\":9,\"row\":4},{\"size_x\":4,\"size_y\":3,\"panelIndex\":5,\"type\":\"visualization\",\"id\":\"3dd97870-5a08-11e7-9569-cbd201df868c\",\"col\":5,\"row\":4}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-4\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-5\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  }
+]
