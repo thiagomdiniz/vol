@@ -1,0 +1,36 @@
+PUT /_template/filebeat_squid
+{
+    "template" : "filebeat-*",
+    "order" : 1,
+    "settings" : {
+        "number_of_shards" : 1
+    },
+    "mappings" : {
+      "_default_": {
+        "numeric_detection": true,
+        "properties": {
+          "squid" : {
+            "properties": {
+              "access": {
+                "properties": {
+                  "geoip": {
+                    "properties": {
+                      "location": {
+                        "type": "geo_point"
+                      }
+                    }
+                  },
+                  "src_ip": {
+                    "type": "ip"
+                  },
+                  "dst_ip": {
+                    "type": "ip"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+}
